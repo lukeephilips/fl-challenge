@@ -1,0 +1,76 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: teal;
+  height: 70px;
+  padding: 20px 200px 0px 200px;
+  color: white;
+}
+
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #36454F;
+  width: 100%;
+  padding: 20px 200px 0px 200px;
+  color: white;
+}
+.App-footer li {
+  list-style: none;
+}
+
+.App-title {
+  font-size: 1.5em;
+  float: left;
+  color: white;
+}
+.App-login {
+  float: right;
+}
+
+.App-body {
+  height: -webkit-fill-available;
+  background-color: #f1f3f4;
+  padding: 20px 200px 0px 200px;
+}
+.no-pad{
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+.provider-panel {
+  height: 150px;
+  width: 150px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.home-links .panel {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.company-logo{
+  width: 100px;
+}
+.tile-img {
+  width: 100px;
+  display: block;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+
+}
+.tile-label {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
